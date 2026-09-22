@@ -1,20 +1,36 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
+# Re-Cycle-ChainSYS
 
-# Run and deploy your AI Studio app
+Experimental prototype exploring an AI-assisted recycling / circular-economy workflow.
 
-This contains everything you need to run your app locally.
+## Status
 
-View your app in AI Studio: https://ai.studio/apps/drive/1lM0opGyX1gZ7JmRjDgVm-tmavEnYAqCN
+**Type:** Prototype / experiment  
+**Production status:** Not established  
+**Measured user outcomes:** Not yet measured
 
-## Run Locally
+This repository is retained as an engineering experiment, not presented as a production SaaS product.
 
-**Prerequisites:**  Node.js
+## Development
 
+The project originated from an AI Studio starter workflow. The implementation is expected to evolve as the product hypothesis is validated.
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+Configure required environment variables locally and follow the repository's current package scripts for development.
+
+```bash
+npm install
+npm run dev
+```
+
+## Evidence standard
+
+Future product claims should be supported by:
+- working implementation
+- reproducible tests
+- documented deployment status
+- measured user or business outcomes
+
+Until those exist, features should be treated as prototype functionality.
+
+## License
+
+See the repository's license file for current terms.
